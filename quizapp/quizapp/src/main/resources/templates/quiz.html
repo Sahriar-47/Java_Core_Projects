@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Quiz</title></head>
+<body>
+<h2>বাংলা রসায়ন কুইজ</h2>
+<form th:action="@{/submit-quiz}" method="post">
+
+    <p>১. বিশ্বের সবচেয়ে বড় মহাসাগর কোনটি?</p>+
+    <input type="radio" name="q1" value="ক" required /> ক. প্রশান্ত মহাসাগর<br/>
+    <input type="radio" name="q1" value="খ" /> খ. আটলান্টিক মহাসাগর<br/>
+    <input type="radio" name="q1" value="গ" /> গ. ভারত মহাসাগর<br/>
+    <input type="radio" name="q1" value="ঘ" /> ঘ. উত্তর মহাসাগর<br/>
+
+    <p>২. বাংলাদেশে কয়টি বিভাগ আছে?</p>
+    <input type="radio" name="q2" value="ক" required /> ক. ৮টি<br/>
+    <input type="radio" name="q2" value="খ" /> খ. ৬টি<br/>
+    <input type="radio" name="q2" value="গ" /> গ. ৭টি<br/>
+    <input type="radio" name="q2" value="ঘ" /> ঘ. ৯টি<br/>
+
+    <!--<p>১. পানির রাসায়নিক সূত্র কী?</p>
+    <input type="radio" name="q1" value="H2O" required /> ক. H2O<br/>
+    <input type="radio" name="q1" value="CO2" /> খ. CO2<br/>
+    <input type="radio" name="q1" value="O2" /> গ. O2<br/>
+    <input type="radio" name="q1" value="NaCl" /> ঘ. NaCl<br/><br/>
+
+    <p>২. অ্যাটমের কেন্দ্র অংশ কী নামে পরিচিত?</p>
+    <input type="radio" name="q2" value="নিউক্লিয়াস" required /> ক. নিউক্লিয়াস<br/>
+    <input type="radio" name="q2" value="ইলেকট্রন" /> খ. ইলেকট্রন<br/>
+    <input type="radio" name="q2" value="প্রোটন" /> গ. প্রোটন<br/>
+    <input type="radio" name="q2" value="নিউট্রন" /> ঘ. নিউট্রন<br/><br/>-->
+
+
+
+    <br/><button type="submit">জমা দিন</button>
+</form>
+</body>
+</html>
